@@ -1,0 +1,81 @@
+import { Agent, Department } from '../types';
+
+export const defaultAgents: Agent[] = [
+  {
+    id: 'agent-lobby',
+    name: 'Alex',
+    department: Department.None,
+    personality: 'Friendly and helpful, always ready to guide new visitors around the office.',
+    avatarUrl: 'https://i.pravatar.cc/150?img=1',
+  },
+  {
+    id: 'agent-marketing',
+    name: 'Maya',
+    department: Department.Marketing,
+    personality: 'Creative, enthusiastic, and always up-to-date with the latest marketing trends.',
+    avatarUrl: 'https://i.pravatar.cc/150?img=5',
+  },
+  {
+    id: 'agent-sales',
+    name: 'Samuel',
+    department: Department.Sales,
+    personality: 'Charismatic, goal-oriented, and excellent at relationship building.',
+    avatarUrl: 'https://i.pravatar.cc/150?img=12',
+  },
+  {
+    id: 'agent-operations',
+    name: 'Olivia',
+    department: Department.Operations,
+    personality: 'Methodical, process-driven, and focused on efficiency.',
+    avatarUrl: 'https://i.pravatar.cc/150?img=9',
+  },
+  {
+    id: 'agent-hr',
+    name: 'Ryan',
+    department: Department.HR,
+    personality: 'Empathetic, great listener, and focused on team wellness.',
+    avatarUrl: 'https://i.pravatar.cc/150?img=7',
+  },
+  {
+    id: 'agent-finance',
+    name: 'Priya',
+    department: Department.Finance,
+    personality: 'Analytical, precise, and excellent with numbers and forecasting.',
+    avatarUrl: 'https://i.pravatar.cc/150?img=31',
+  },
+  {
+    id: 'agent-rnd',
+    name: 'Leo',
+    department: Department.RnD,
+    personality: 'Innovative, curious, and always thinking outside the box.',
+    avatarUrl: 'https://i.pravatar.cc/150?img=13',
+  },
+  {
+    id: 'agent-customer-service',
+    name: 'Emma',
+    department: Department.CustomerService,
+    personality: 'Patient, empathetic, and excellent at resolving issues.',
+    avatarUrl: 'https://i.pravatar.cc/150?img=23',
+  },
+  {
+    id: 'agent-ceo',
+    name: 'Daniel',
+    department: Department.Management,
+    personality: 'Visionary, strategic, and inspiring leader.',
+    avatarUrl: 'https://i.pravatar.cc/150?img=15',
+  },
+  {
+    id: 'agent-it',
+    name: 'Taylor',
+    department: Department.IT,
+    personality: 'Tech-savvy, problem-solver, and always available for support.',
+    avatarUrl: 'https://i.pravatar.cc/150?img=41',
+  },
+  {
+    id: 'agent-automation',
+    name: 'Aria',
+    department: Department.Automation,
+    personality: 'Innovative, systematic, and focused on creating efficiencies.',
+    avatarUrl: 'https://i.pravatar.cc/150?img=19',
+  },
+];
